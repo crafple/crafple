@@ -8,6 +8,12 @@ main {
     padding-top: 20px;
 
 }
+a {
+    text-decoration: none;
+}
+.news a:visited {
+    color:inherit;
+}
 li a {
     text-decoration: none;
     color: #5a5959;
@@ -65,8 +71,6 @@ nav li{
     margin: 0 340px;
     padding-bottom: 400px;
     margin-top: -50px;
-  
-    
 }
 article{
     margin: 0 80px;
