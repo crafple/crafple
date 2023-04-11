@@ -1,0 +1,261 @@
+main {
+    font-family: 'Noto Sans JP', sans-serif
+ 
+}
+.container{
+    background-color: #f3f3f3;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+p{
+    color: #504e4e;
+}
+.news a:visited {
+    color:inherit;
+}
+.news a{
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #5a5959;
+    font-size: 18px;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    
+}
+li a::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #65dd79;
+    bottom: -18px;
+    opacity: 0;
+    transition: 0.4s;
+}
+li a:hover::after{
+    opacity: 1;
+    bottom: -6px;
+}
+
+li {
+    list-style: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid 3px #eeeeee;
+}
+.logo {
+    margin: 10px 40px;
+    text-decoration: none;
+    color: #65dd79;
+    font-size: 36px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;  
+}
+nav li{
+    display: block;
+    margin-right: 100px;
+}
+.slideshow{
+    position: relative;
+}
+.slide0{
+    animation: fadein 1s linear forwards;
+}
+.slide1{
+    animation: fadein 1s linear forwards;
+}
+.slide2{
+    animation: fadein 1s linear forwards;
+}
+.slideshow div{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.slide0 {
+    width: 100%;
+    height: 500px;
+
+}
+.slide1 {
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+.slide2 {
+    width: 100%;
+    height: 500px;
+    display: none;
+}
+.circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 500ms;
+   
+}
+.indicator {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    background-color: #a3a3a3;
+    margin: 0 10px;
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+.indicator:hover {
+    background-color: #272525;
+    transition: 500ms;
+}
+.selectedcirclecolor{
+    background-color: #272525;
+}
+.nomalcirclecolor{
+    background-color: #a3a3a3;
+    transition: 500ms;
+}
+.appinfo > h1 {
+    color: #504e4e;
+    margin-left: 50px;
+}
+
+.apppictures {
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    justify-content:center;
+    display: flex;
+    margin: 0 40px;
+}
+
+
+.appimg0 {
+    margin-top: 50px;
+    max-width: 100%;
+    height: 80%;
+    margin-right: 200px;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.appimg0:hover {
+box-shadow: 0 0 8px gray;
+transform: translateY(-2px);
+}
+
+.appimg1 {
+    max-width: 100%;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 200px;
+    border-radius: 40px;
+    border: solid 2px gray;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.appimg1:hover {
+    box-shadow: 0 0 8px gray;
+    transform: translateY(-2px);
+    }
+.news{
+    background-color: #FFFFFF;
+    border-radius: 40px;
+    margin: 0 40px;
+    padding-bottom: 400px;
+
+}
+.newsinfo > h1 {
+    color: #504e4e;
+    margin-left: 50px;
+}
+.news-0{
+    display: flex;
+    border-bottom: solid 3px #ececec; 
+    margin: 0 100px;
+}
+.news-1{
+    display: flex;
+    border-bottom: solid 3px #ececec; 
+    margin: 0 100px;
+}
+
+.days{
+    color: #504e4e ;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-left: 0px;
+    font-size: 20px;
+}
+.contents{
+    margin-top: 40px;
+    
+    font-size: 20px;
+}
+footer nav ul {
+    display: flex;
+    justify-content: space-evenly;  
+    align-items: center;
+}
+footer nav li{
+    display: block;
+    margin-right: 100px;
+}
+footer p{
+    text-align: center;
+}
+
+@media screen and (max-width: 1320px) {
+    .appinfo{
+        justify-content:center;
+        background-color: #FFFFFF;
+        border-radius: 40px;
+        
+        
+    }
+    .apppictures {
+        justify-content:center;
+        display: inline-block;
+        margin: 0 80px;
+
+    }
+    .appimg0 {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+    .appimg1 {
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 40px;
+        cursor: pointer;
+        transition: all 0.3s;
+    }
+}
