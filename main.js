@@ -10,8 +10,6 @@ setInterval(function(){
 function slideShow(i){
      slideindex = i
         circles[slideindex].classList.add("selectedcirclecolor")
-    
-   
     if(slideindex == 0){
         if(circles[1].classList.contains("selectedcirclecolor")){
             circles[1].classList.remove("selectedcirclecolor")
@@ -27,7 +25,6 @@ function slideShow(i){
         slideindex++;
         
     }else if(slideindex == 1){
-        
         if(circles[0].classList.contains("selectedcirclecolor")){
             circles[0].classList.remove("selectedcirclecolor")
         }
@@ -42,7 +39,6 @@ function slideShow(i){
         slideindex++;
        
     }else if(slideindex == 2){
-        
        if(circles[0].classList.contains("selectedcirclecolor")){
         circles[0].classList.remove("selectedcirclecolor") 
     }
@@ -50,13 +46,13 @@ function slideShow(i){
     if(circles[1].classList.contains("selectedcirclecolor")){
         circles[1].classList.remove("selectedcirclecolor")
     }
-        
         allslides[slideindex].style.display = "block";
         allslides[1].style.display = "none";
         allslides[0].style.display = "none";
             slideindex = 0;
     }
 };
+
 function setInitialColor(){
     circles[0].classList.add("selectedcirclecolor")
 }
