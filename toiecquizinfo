@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+    <script src="javascript/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="test.html" class="logo">Crafple</a>
+        <nav>
+            <ul>
+                <li><a href="#appinfopage">アプリ情報</a></li>
+                <li><a href="news.html">ニュース</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+    <main>
+        <h2>新作アプリ情報</h2>
+        <article class="news">
+        <h4>2023/4.07</h3>
+        <h3>TOEIC®L&R TEST用英単語クイズアプリをリリースしました。</h3>
+        <img class="pic0"src="pictures/ad.jpg"></img>
+        <p>プライバシーポリシーは下記のリンクから確認できます</p>
+        <p>
+            Toiec対策に特化した英単語クイズアプリです。大幅の自分の英単語力をアップすることができます！
+            対象者としてはやや中級者向けとなっております。
+        </p>
+        <h3>本アプリの特徴</h3>
+        <img class="pic1"src="pictures/appad1.jpg"></img>
+        <p>
+            本アプリの特徴は,隙間時間にできるだけ楽しみながら英単語を学習するためにクイズの出題方法に工夫をしました。
+            また、アニメーションに関してはオンオフを切り替えることが可能です。
+        </p>
+        <img class="pic2"src="pictures/appad0.jpg"></img>
+        <p>
+            それ以外にもモチベーションの維持のために、現在の単語の学習状況や単語ごとの学習時間などの記録が確認できるようになっています。
+        </p>
+        <p>
+           また、 復習リストで間違えた単語を復習できます。定期的に復習をすることをお勧めしますが、理想的なのは毎日です。溜まった単語リストはスワイプすることで削除できます。
+        </p>
+        <img class="pic3"src="pictures/appad2.jpg"></img>
+        <p>
+            今後も、バージョンアップを行い、機能の追加や削除をする予定です。実装予定としてはスケジュールの追加や苦手な単語だけにしぼったクイズなどが実装予定です。
+        </p>
+        <p>
+           ご意見、ご要望等あればお問い合わせページから記載されているメールアドレスにご連絡お願いします。
+        </p>
+        
+    </article>
+    </main>
+    </div>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="test.html #appinfopage">アプリ情報</a></li>
+                <li><a href="news.html">ニュース</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <p>&copy;Crafple,Inc,all rights deserved</p>
+    
+    </footer>
+
+    
+</body>
+</html>
