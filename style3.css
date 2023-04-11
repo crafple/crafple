@@ -1,12 +1,13 @@
 main {
     font-family: 'Noto Sans JP', sans-serif
- 
 }
-
 .container{
     background-color: #f3f3f3;
-    padding-bottom: 20px;
     padding-top: 20px;
+    padding-bottom: 100px;
+}
+a{
+    text-decoration: none;
 }
 li a {
     text-decoration: none;
@@ -14,7 +15,6 @@ li a {
     font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
     position: relative;
-    
 }
 li a::after{
     position: absolute;
@@ -25,13 +25,13 @@ li a::after{
     background: #65dd79;
     bottom: -18px;
     opacity: 0;
+    
     transition: 0.4s;
 }
 li a:hover::after{
     opacity: 1;
     bottom: -6px;
 }
-
 li {
     list-style: none;
 }
@@ -40,7 +40,6 @@ header {
     justify-content: space-between;
     align-items: center;
     border-bottom: solid 3px #eeeeee;
-  
 }
 .logo {
     margin: 10px 40px;
@@ -57,21 +56,15 @@ nav li{
     display: block;
     margin-right: 100px;
 }
-.news{
-    display: inline-block;
+.contact{
     border-radius: 40px;
     background-color: #FFFFFF;
     margin: 0 340px;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     margin-top: -50px;
-    
-}
-article{
-    margin: 0 80px;
-    padding: 24px 20px;
 }
 h2{
-    color: #504e4e;
+    color: #5a5959;
     margin: 0 40px;
     text-align: center;
     margin-bottom: 30px;
@@ -79,37 +72,31 @@ h2{
     font-size: 38px;
 }
 h3{
-    color: #504e4e;
+    color: #5a5959;
+    margin: 0 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 30px;
-    padding: 0 12px;
-    border-left: solid 5px #1bbd1b;
-    margin-left: 30px;
- 
+}
+h4{
+    color: #5a5959;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 32px;
 }
 p{
-    color: #504e4e;
-    font-family: 'Noto Sans JP', sans-serif;
-    font-size: 18px;
-    margin-left: 30px;
-    line-height: 1.7;
+    color: #5a5959;
 }
-.pic0{
-   height:80%;
-   width: 80%;
-   border-radius: 40px;
-   margin: 0 91px;
+.contact p{
+  
+    font-size: 20px;
+    margin: 0 40px;
+    padding-top: 20px;
+
 }
-.pic1{
-    margin: 0 240px;
- }
- .pic2{
-    margin: 0 240px;
- }
- .pic3{
-    margin: 0 240px;
- }
-
-
 footer nav ul {
     display: flex;
     justify-content: space-evenly;  
