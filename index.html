@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="javascript/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <a href="test.html" class="logo">Crafple</a>
+        <nav>
+            <ul>
+                <li><a href="#appinfopage">アプリ情報</a></li>
+                <li><a href="news.html">ニュース</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+        <div class="slideshow">
+            <img class="slides slide0" src="pictures/ad.jpg"></img>
+            
+            <img class="slides slide1" src="pictures/comingsoon.png"></img>
+           
+            <img class="slides slide2" src="pictures/comingsoon.png"></img>
+            <div>
+                <ul class="circles">
+                    <li class="indicator circle0" onclick="slideShow(0)"></li>
+                    <li class="indicator circle1" onclick="slideShow(1)"></li>
+                    <li class="indicator circle2" onclick="slideShow(2)"></li>
+                </ul>
+    
+            </div>
+         
+        </div>
+       
+        
+        <div id= "appinfopage" class="appinfo">
+            <h1>アプリ情報</h1>
+        <div class="apppictures">
+            <div class="apppictures">
+                <a href="toiecquizinfo.html"><img class="appimg0" src="pictures/icon.jpg"></img></a>
+                <img class="appimg1" src="pictures/noimage.jpg"></img>
+             </div>
+             
+        </div>
+        </div>
+       
+        <div class="newsinfo">
+            <h1> お知らせ</h1>
+            <div class="news">
+                <div class="news-0">
+                    <p class="days">2023.04.04</p>
+                    <p class="contents">ホームページを開設しました。</p>
+                </div>
+                <div class="news-1">
+                    <p class="days">2023.04.04</p>
+                    <p class="contents"><a href="toiecquizinfo.html">新規アプリをリリースしました。</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="#appinfopage">アプリ情報</a></li>
+                <li><a href="news.html">ニュース</a></li>
+                <li><a href="contact.html">お問い合わせ</a></li>
+            </ul>
+        </nav>
+        <p>&copy;Crafple,Inc,all rights deserved</p>
+    </footer>
+</body>
+</html>
