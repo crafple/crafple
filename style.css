@@ -1,12 +1,13 @@
+body{
+width: 1900px;
+}
 main {
     font-family: 'Noto Sans JP', sans-serif
- 
 }
 .container{
     background-color: #f3f3f3;
     padding-bottom: 20px;
     padding-top: 20px;
-
 }
 p{
     color: #504e4e;
@@ -17,14 +18,11 @@ p{
 .news a{
     text-decoration: none;
 }
-
 li a {
     text-decoration: none;
     color: #5a5959;
-    font-size: 18px;
     font-family: 'Noto Sans JP', sans-serif;
     position: relative;
-    
 }
 li a::after{
     position: absolute;
@@ -41,11 +39,11 @@ li a:hover::after{
     opacity: 1;
     bottom: -6px;
 }
-
 li {
     list-style: none;
 }
 header {
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,11 +56,10 @@ header {
     font-size: 36px;
     font-family: 'Noto Sans JP', sans-serif;
 }
-
-
 nav ul {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    height: 100%;
 }
 nav li{
     display: block;
@@ -115,7 +112,6 @@ nav li{
     justify-content: center;
     align-items: center;
     transition: all 500ms;
-   
 }
 .indicator {
     height: 20px;
@@ -126,7 +122,6 @@ nav li{
     cursor: pointer;
     transition: all 500ms;
 }
-
 .indicator:hover {
     background-color: #272525;
     transition: 500ms;
@@ -142,7 +137,6 @@ nav li{
     color: #504e4e;
     margin-left: 50px;
 }
-
 .apppictures {
     background-color: #FFFFFF;
     border-radius: 40px;
@@ -150,8 +144,6 @@ nav li{
     display: flex;
     margin: 0 40px;
 }
-
-
 .appimg0 {
     margin-top: 50px;
     max-width: 100%;
@@ -165,7 +157,6 @@ nav li{
 box-shadow: 0 0 8px gray;
 transform: translateY(-2px);
 }
-
 .appimg1 {
     max-width: 100%;
     height: 80%;
@@ -186,7 +177,6 @@ transform: translateY(-2px);
     border-radius: 40px;
     margin: 0 40px;
     padding-bottom: 400px;
-
 }
 .newsinfo > h1 {
     color: #504e4e;
@@ -227,20 +217,16 @@ footer nav li{
 footer p{
     text-align: center;
 }
-
 @media screen and (max-width: 1320px) {
     .appinfo{
         justify-content:center;
         background-color: #FFFFFF;
-        border-radius: 40px;
-        
-        
+        border-radius: 40px;  
     }
     .apppictures {
         justify-content:center;
         display: inline-block;
         margin: 0 80px;
-
     }
     .appimg0 {
         max-width: 100%;
@@ -258,4 +244,7 @@ footer p{
         cursor: pointer;
         transition: all 0.3s;
     }
+}
+@media screen and (max-width: 600px) {
+   
 }
