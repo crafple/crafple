@@ -193,6 +193,12 @@ transform: translateY(-2px);
     margin: 0 100px;
 }
 
+.news-2{
+    display: flex;
+    border-bottom: solid 3px #ececec; 
+    margin: 0 100px;
+}
+
 .days{
     color: #504e4e ;
     margin-top: 40px;
